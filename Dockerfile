@@ -13,5 +13,3 @@ RUN npm install yarn --silent
 RUN yarn
 RUN npm install react-scripts@3.4.1 -g --silent
 EXPOSE 3000
-# start app
-CMD ["yarn", "start"]
